@@ -119,11 +119,13 @@
       <h2 id="projects-h">Featured Projects</h2>
       <div class="grid cols-3">
         <article class="card">
-          <h3>BookingApp (SPFx + React)</h3>
-          <p class="meta">SharePoint web part • Event bookings • Live capacity • Schedule validation</p>
+          <h3>BookingApp (React + Vite + Express/MongoDB)</h3>
+          <p class="meta">React SPA / Express API / MongoDB Atlas / Capability-based RBAC</p>
           <ul class="clean">
-            <li>Front-end in SPFx/React with REST (<code>SPHttpClient</code>) to multiple SharePoint lists.</li>
-            <li>Real-time slot tracking, confirmation modals, and conflict checks.</li>
+            <li>Migrated the SharePoint web part into a standalone React/Vite SPA backed by an Express API and MongoDB Atlas.</li>
+            <li>Implements role- and capability-based access control with JWT auth, middleware checks, and seeded roles, mappings, and overrides.</li>
+            <li>Delivers event and session management UI with inline admin tools, live slot tracking, waitlist handling, and automated conflict checks.</li>
+            <li>Exposes REST endpoints for events, sessions, reservations, and RBAC lookups to support future audit logs, bulk notifications, and automations.</li>
           </ul>
           <a class="btn" href="https://github.com/dafunkmunk" target="_blank" rel="noopener">View on GitHub</a>
         </article>
@@ -197,3 +199,4 @@
   </script>
 </body>
 </html>
+
